@@ -1,0 +1,98 @@
+{
+	"openapi": "3.0.1",
+	"info": {
+		"title": "TPS Central",
+		"description": "API to make the world a better place through more productive use of TPS reports",
+		"version": "1.0"
+	},
+	"servers": [
+		{
+			"url": "https://towhit-apim-demo-dev.azure-api.net/tps"
+		}
+	],
+	"paths": {
+		"/tps": {
+			"get": {
+				"summary": "Get TPS Report",
+				"description": "Retrieve a specific and almost certainly very interesting TPS report",
+				"operationId": "get-tps-report",
+				"parameters": [
+					{
+						"name": "Id",
+						"in": "query",
+						"description": "Unique ID for this TPS report",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "looks like we found it",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/tps-report"
+								},
+								"example": {
+									"Id": "12344dhdggdjhs",
+									"DateSubmitted": "2021-05-03T00:00:00.0000000+00:00",
+									"TPSURL": "http://tpsreportsrock.com/tps/12344dhdggdjhs"
+								}
+							}
+						}
+					}
+				}
+			},
+			"put": {
+				"summary": "PUT TPS Report",
+				"description": "Store TPS report so there is no way it can ever be lost",
+				"operationId": "put-tps-report",
+				"responses": {
+					"200": {
+						"description": null
+					}
+				}
+			}
+		}
+	},
+	"components": {
+		"schemas": {
+			"tps-report": {
+				"type": "object",
+				"properties": {
+					"Id": {
+						"type": "string"
+					},
+					"DateSubmitted": {
+						"type": "string"
+					},
+					"TPSURL": {
+						"type": "string"
+					}
+				}
+			}
+		},
+		"securitySchemes": {
+			"apiKeyHeader": {
+				"type": "apiKey",
+				"name": "Ocp-Apim-Subscription-Key",
+				"in": "header"
+			},
+			"apiKeyQuery": {
+				"type": "apiKey",
+				"name": "subscription-key",
+				"in": "query"
+			}
+		}
+	},
+	"security": [
+		{
+			"apiKeyHeader": []
+		},
+		{
+			"apiKeyQuery": []
+		}
+	]
+}
