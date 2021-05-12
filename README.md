@@ -1,52 +1,32 @@
 # api-day-in-the-life
 A day in the life of an API in Azure from concept, development, deployment and operations
 
-# Intro
-A day in the life of an API in Azure from concept, development, deployment and operations
-# Design
-* Prototype API in API Managament
-Open APi Specification, Design First API
-Api OPerations, verbs
-Input parameters
-Visual Editor but behind scenes generating api spec
-Export API
-Open Exported file
-Implemntation Service could be anything
+# Building API's
+[![](http://img.youtube.com/vi/499iCgNLDDE/0.jpg)](http://www.youtube.com/watch?v=499iCgNLDDE "")
+[![](http://img.youtube.com/vi/6Z5qK9NTA3k/0.jpg)](http://www.youtube.com/watch?v=6Z5qK9NTA3k "")
+[![](http://img.youtube.com/vi/06CRN18kH1k/0.jpg)](http://www.youtube.com/watch?v=06CRN18kH1k "")
+
+[Architect API integration in Azure](https://docs.microsoft.com/en-us/learn/paths/architect-api-integration/)
+[Create serverless applications](https://docs.microsoft.com/en-us/learn/paths/create-serverless-applications/)
+
+# API Management
+[![](http://img.youtube.com/vi/4fPRxveXGXw/0.jpg)](http://www.youtube.com/watch?v=4fPRxveXGXw "")
+[![](http://img.youtube.com/vi/RgB8P3Z7q1c/0.jpg)](http://www.youtube.com/watch?v=RgB8P3Z7q1c "")
+[![](http://img.youtube.com/vi/5mMtUSmfUlw/0.jpg)](http://www.youtube.com/watch?v=5mMtUSmfUlw "")
+
+[APIM Product Team's goto resources](https://azure.github.io/api-management-resources)
+
+## Monitoring
+[![](http://img.youtube.com/vi/jkI57Pzd2zc/0.jpg)](http://www.youtube.com/watch?v=jkI57Pzd2zc "")
 
 
-* Input fields
-* Mock Response
-* Sample
-* Test using Portal
-* OPenAPI Export
-
-# Build
-* Discuss OPtions
-* Azure Functions
-* New Function from OPen API
-* Code Functionality
-* Publish
-* Disable Mock 
-
-# Publish
-* Products
-* Versions and revisions
+## DevOps 
+[![](http://img.youtube.com/vi/2x1CrzdTcL0/0.jpg)](http://www.youtube.com/watch?v=2x1CrzdTcL0 "")
+[![](http://img.youtube.com/vi/PDOXI2E6zYA/0.jpg)](http://www.youtube.com/watch?v=PDOXI2E6zYA "")
+[![](http://img.youtube.com/vi/4Sp2Qvmg6j8/0.jpg)](http://www.youtube.com/watch?v=4Sp2Qvmg6j8 "")
 
 
-# Operations
-* Monitoring
-* App Insights
-* Tracing
-* Policies
-* APIM Diagnostics
-- APIM -> Diagnose and solve problems
-
-
-# Consuming
-* Developer Portal
-* Export to Power Platform
-
-# Outro
-* Repo
-* Resources
+[Azure API Management DevOps Resource Kit](https://github.com/Azure/Azure-api-management-devops-resource-kit)
+[Walkthrough with Azure Devops](https://github.com/Azure/azure-api-management-devops-resource-kit/blob/master/docs/AzDO-Example.md)
+[Walkthrough with GitHub](https://github.com/RvLabs/rvlabs-apim-devops)
 
