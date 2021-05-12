@@ -28,14 +28,14 @@ A day in the life of an API in Azure from concept, development, deployment and o
 [![Diagnose and solve problems with Azure API Management](http://img.youtube.com/vi/jkI57Pzd2zc/0.jpg)](http://www.youtube.com/watch?v=jkI57Pzd2zc "Diagnose and solve problems with Azure API Management")
 
 
-## DevOps 
+## DevOps fro API's
 
 [![How to build a CI/CD pipeline for API Management, Part 1](http://img.youtube.com/vi/2x1CrzdTcL0/0.jpg)](http://www.youtube.com/watch?v=2x1CrzdTcL0 "How to build a CI/CD pipeline for API Management, Part 1")
 [![How to build a CI/CD pipeline for API Management, Part 2](http://img.youtube.com/vi/PDOXI2E6zYA/0.jpg)](http://www.youtube.com/watch?v=PDOXI2E6zYA "How to build a CI/CD pipeline for API Management, Part 2")
 [![Build a CI/CD pipeline for Azure API Management](http://img.youtube.com/vi/4Sp2Qvmg6j8/0.jpg)](http://www.youtube.com/watch?v=4Sp2Qvmg6j8 "Build a CI/CD pipeline for Azure API Management")
 
 
-*[Azure API Management DevOps Resource Kit](https://github.com/Azure/Azure-api-management-devops-resource-kit)
-*[Walkthrough with Azure Devops](https://github.com/Azure/azure-api-management-devops-resource-kit/blob/master/docs/AzDO-Example.md)
-*[Walkthrough with GitHub](https://github.com/RvLabs/rvlabs-apim-devops)
+* [Azure API Management DevOps Resource Kit](https://github.com/Azure/Azure-api-management-devops-resource-kit)
+* [Walkthrough with Azure Devops](https://github.com/Azure/azure-api-management-devops-resource-kit/blob/master/docs/AzDO-Example.md)
+* [Walkthrough with GitHub](https://github.com/RvLabs/rvlabs-apim-devops)
 
